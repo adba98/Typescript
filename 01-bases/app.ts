@@ -1,2 +1,4 @@
-const msg: string = 'Hola typescript';
-console.log(msg);
+((): void => {
+  const a: number = 10;
+  console.log(a);
+})();
