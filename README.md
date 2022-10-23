@@ -7,6 +7,7 @@ This project contains the code developed within the typescript course
 # Issues
 
 - Self-Executing Anonymous Function
+- NaN, any, void
 
 <!-- Markdown links -->
 
