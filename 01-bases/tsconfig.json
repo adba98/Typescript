@@ -9,5 +9,6 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2016"
-  }
+  },
+  "include": ["classes"]
 }
