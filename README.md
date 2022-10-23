@@ -8,6 +8,12 @@ This project contains the code developed within the typescript course
 
 - Self-Executing Anonymous Function
 - NaN, any, void
+- ever
+- types
+- tsconfig file
+  - [sourceMap](https://www.typescriptlang.org/tsconfig#sourceMap)
+  - removeComments
+  - include and exclude files
 
 <!-- Markdown links -->
 
