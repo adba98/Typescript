@@ -10,5 +10,5 @@
     "strict": true,
     "target": "es2016"
   },
-  "include": ["interfaces"]
+  "include": ["namespace"]
 }

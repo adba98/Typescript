@@ -1,23 +1,13 @@
 "use strict";
-(() => {
-    let flash = {
-        name: 'Barry Allen',
-        age: 24,
-        powers: ['Súper velocidad', 'Viajar en el tiempo']
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return text.length > 3;
     };
-})();
-(() => {
-    let client = {
-        name: 'Oscar',
-        age: 24,
-        address: {
-            id: 10,
-            zip: '123',
-            city: 'Bogota'
-        },
-        getFullAddress() {
-            return this.address.city;
-        }
+    Validations.validateDate = (date) => {
+        return !isNaN(date.valueOf());
     };
-})();
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Oscar'));
+console.log(Validations.validateDate(new Date()));
 //# sourceMappingURL=main.js.map
