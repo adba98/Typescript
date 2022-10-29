@@ -1,10 +1,6 @@
+import { getPokemon } from './generics/get-pokemon';
 
-
-console.log('Hola Mundo!!!!!');
-
-
-
-
-
-
-
+getPokemon(4)
+  .then((pokemon) => console.log(pokemon))
+  .catch((error) => console.error(error))
+  .finally(() => console.log('Fin de getPokemon'));
